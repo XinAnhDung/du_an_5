@@ -1,0 +1,65 @@
+.form-student{
+ 	width: 750px;
+ 	border: 5px solid #ccc;
+ 	margin: 0px;
+ 	padding: 0px;
+ 	float: left;
+}
+div.form-student h1 {
+	padding: 0px;
+	margin-top: 0px;
+}
+div.form-student label {
+	width: 100px;
+	float: left;
+}
+div.form-student input[type="text"],button{
+	margin-bottom: 10px;
+	width: 300px;
+	padding: 5px;
+}
+button{
+	margin-top: 15px;
+}
+.error{
+	color: red;
+}
+input:invalid {
+    border-color: red;
+}
+input, input:valid {
+    border-color: #ccc;
+}
+div.popup-content{
+	height: 900px;
+	width: 350px;
+	padding: 5px;
+	margin: 25px;
+	float: left;
+	border: 5px solid #ccc;
+}
+.popup-body{
+	text-align: left;
+}
+.popup_header button{
+	position: absolute;
+    background: red;
+    color: white;
+	float: center;
+	width: 35px;
+	height: 35px;
+	margin-top: -40px;
+	margin-left: 300px;
+}
+.popup_header h3{
+	text-align: center;
+}
+.popup-form label{
+	width: 200px;
+	float: left;
+}
+.popup-form input[type="text"]{
+	margin-bottom: 10px;
+	width: 300px;
+	padding: 5px;
+}
